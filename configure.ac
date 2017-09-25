@@ -77,6 +77,7 @@ AC_PATH_PROG(XGETTEXT,xgettext)
 AC_PATH_PROG(HEXDUMP,hexdump)
 AC_PATH_TOOL(READELF, readelf)
 AC_PATH_TOOL(CPPFILT, c++filt)
+AC_PATH_TOOL(DASH, dash)
 
 dnl pkg-config check.
 PKG_PROG_PKG_CONFIG
@@ -630,6 +631,11 @@ if test x$use_tests = xyes; then
   if test x$HEXDUMP = x; then
     AC_MSG_ERROR(hexdump is required for tests)
   fi
+
+  if test x$DASH = x; then
+    AC_MSG_ERROR(/bin/dash is required for tests)
+  fi
+  
 
 
   if test x$use_boost = xyes; then
