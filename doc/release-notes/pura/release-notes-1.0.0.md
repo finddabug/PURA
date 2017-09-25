@@ -1,8 +1,8 @@
-0.1.0 Release notes
+1.0.0 Release notes
 ====================
 
 
-Pura Core version 0.1.0 is now available from:
+Pura Core version 1.0.0 is now available from:
 
   https://pura.one/downloads
 
@@ -23,7 +23,7 @@ purad/pura-qt (on Linux).
 the blockchain. To do so, start the client with --reindex.**
 
 
-0.1.0 changelog
+1.0.0 changelog
 ----------------
 
 Switched to Dash Core version 0.12.2
