@@ -8,7 +8,7 @@ Pura Core version 1.0.0 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/purapay/pura/issues
+  https://github.com/puracore/pura/issues
 
 
 How to Upgrade
