@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install pura_hash
+## Step 0: Install pura_hash          #No such repo yet - needs to be created
 
-https://github.com/purapay/pura_hash
+https://github.com/dashpay/dash_hash  #Use dash_hash till Pura has repo
 
 ## Step 1: Download hash list
 
