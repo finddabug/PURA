@@ -25,8 +25,8 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.pura.one/
-Vcs-Git: git://github.com/purapay/pura.git
-Vcs-Browser: https://github.com/purapay/pura
+Vcs-Git: git://github.com/puracore/pura.git
+Vcs-Browser: https://github.com/puracore/pura
 
 Package: purad
 Architecture: any
