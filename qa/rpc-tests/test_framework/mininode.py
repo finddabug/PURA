@@ -32,7 +32,7 @@ from threading import Thread
 import logging
 import copy
 
-import pura_hash
+import dash_hash #To do for Pura no pura_hash repo!
 
 BIP0031_VERSION = 60000
 MY_VERSION = 70206  # current MIN_PEER_PROTO_VERSION
@@ -64,8 +64,8 @@ def sha256(s):
 def hash256(s):
     return sha256(sha256(s))
 
-def purahash(s):
-    return pura_hash.getPoWHash(s)
+def dashhash(s):
+    return dash_hash.getPoWHash(s)     #To do for Pura - no pura_dash repo!
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
@@ -496,8 +496,8 @@ class CBlockHeader(object):
             r += struct.pack("<I", self.nTime)
             r += struct.pack("<I", self.nBits)
             r += struct.pack("<I", self.nNonce)
-            self.sha256 = uint256_from_str(purahash(r))
-            self.hash = encode(purahash(r)[::-1], 'hex_codec').decode('ascii')
+            self.sha256 = uint256_from_str(dashhash(r)) #To do for Pura
+            self.hash = encode(dashhash(r)[::-1], 'hex_codec').decode('ascii')
 
     def rehash(self):
         self.sha256 = None

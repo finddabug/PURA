@@ -1,7 +1,8 @@
 Pura Core staging tree 1.0.0
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/puracore/pura.svg?branch=master)](https://travis-ci.org/dashpay/dash)
+`master:` [![Build Status](https://travis-ci.org/puracore/pura.svg?branch=master)](https://travis-ci.org/puracore/pura)
+
 What is Pura ?
 ----------------
 
