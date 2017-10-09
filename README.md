@@ -1,7 +1,9 @@
 Pura Core staging tree 1.0.0
-===============================
+==============================
 
-`master:` [![Build Status](https://travis-ci.org/puracore/pura.svg?branch=master)](https://travis-ci.org/puracore/pura)
+`master:` [![Build Status](https://travis-ci.org/puracore/pura.svg?branch=master)](https://travis-ci.org/puracore/pura) `development:` [![Build Status](https://travis-ci.org/puracore/pura.svg?branch=spork)](https://travis-ci.org/puracore/branches)
+
+https://pura.one
 
 What is Pura ?
 ----------------
@@ -13,7 +15,7 @@ are carried out collectively by the network. Pura Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Dash Core software, see https://pura.one.
+the Pura Core software, see https://pura.one.
 
 
 License
@@ -26,7 +28,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/purapay/pura/tags) are created to indicate new official,
+[Tags](https://github.com/puracore/pura/tags) are created to indicate new official,
 stable release versions of Pura Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
