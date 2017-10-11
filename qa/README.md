@@ -15,6 +15,12 @@ The python-zmq library is required. On Ubuntu or Debian it can be installed via:
 ```
 sudo apt-get install python-zmq
 ```
+Dash Core test specific dependencies
+------------------------------------
+```
+git clone https://github.com/dashpay/dash_hash
+sudo python setup.py install
+```
 
 Running tests
 =============
